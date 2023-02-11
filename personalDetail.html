@@ -2,11 +2,33 @@
 <html>
     <head>
         <title> Personal Detail </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
         <style>
             th,td,tr{ 
                 border: 1px solid black;
                 border-collapse: collapse;
             }
+            h2{
+                font-family: 'Playfair Display', serif;
+                color: red;
+            }
+            h3{
+                font-family: 'Playfair Display', serif;
+                color: purple;  
+            }
+            .stack,.hobbies,.strengths{
+                list-style-type: square;
+                color: yellow;
+                padding-bottom: 10px;
+                
+            }
+        
+                
+        
+
      
         </style>
     </head>
@@ -19,7 +41,7 @@
         <hr>
         <h3> My Technology Stack </h3>
 
-        <ul>
+        <ul class="stack">
             <li> HTML5 </li>
             <li> CSS </li>
             <li> JavaScript </li>
@@ -28,7 +50,7 @@
         <hr>
 
         <h3> My Hobbies </h3>
-        <ul>
+        <ul class="hobbies">
             <li> Watching Television </li>
             <li> Cooking Recipes </li>
             <li> Making Friends </li>
@@ -36,7 +58,7 @@
         <hr>
 
         <h3> Strengths </h3>
-        <ul>
+        <ul class="strengths">
             <li> Positive Attitude </li>
             <li> Hardworker </li>
         </ul>
